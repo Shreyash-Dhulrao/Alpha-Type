@@ -1,7 +1,7 @@
 {
   "name": "typing-portal",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -37,5 +37,17 @@
     "tailwindcss": "^3.4.13",
     "vite": "^5.4.1",
     "vite-plugin-svgr": "^4.2.0"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shreyash-Dhulrao/Alpha-Type.git"
+  },
+  "author": "Shreyash Dhulrao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shreyash-Dhulrao/Alpha-Type/issues"
+  },
+  "homepage": "https://github.com/Shreyash-Dhulrao/Alpha-Type#readme"
 }
