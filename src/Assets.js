@@ -8,8 +8,8 @@ import typing from './assets/Images/Link_images/Typing.com.png'
 import typingclub from './assets/Images/Link_images/Typingclub.png'
 import rapidtyping from './assets/Images/Link_images/rapidtyping.png'
 
-import Authentication_Image from './assets/Images/Authentication Image/Keyboard_Auth.jpg'
-import Background from './assets/Images/Authentication Image/Background Image.png'
+import Authentication_Image from './assets/Images/Authentication_Image/Keyboard_Auth.jpg'
+import Background from './assets/Images/Authentication_Image/Background Image.png'
 
 import Icon1 from './assets/Images/Icons/Icon1.png'
 import Icon2 from './assets/Images/Icons/Icon2.png'
