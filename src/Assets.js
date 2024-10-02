@@ -3,13 +3,13 @@ import fastfiners from './assets/Images/Link_images/10fastfingers.png'
 import keybr from './assets/Images/Link_images/keybr.png'
 import typeracer from './assets/Images/Link_images/typeracer.png'
 
-import typingacademy from './assets/Images/Link_images/Typing Academy.png'
-import typing from './assets/Images/Link_images/Typing.com.png'
+import typingacademy from './assets/Images/Link_images/Typingacademy.png'
+import typing from './assets/Images/Link_images/Typingcom.png'
 import typingclub from './assets/Images/Link_images/Typingclub.png'
 import rapidtyping from './assets/Images/Link_images/rapidtyping.png'
 
 import Authentication_Image from './assets/Images/Authentication_Image/Keyboard_Auth.jpg'
-import Background from './assets/Images/Authentication_Image/Background Image.png'
+import Background from './assets/Images/Authentication_Image/BackgroundImage.png'
 
 import Icon1 from './assets/Images/Icons/Icon1.png'
 import Icon2 from './assets/Images/Icons/Icon2.png'
