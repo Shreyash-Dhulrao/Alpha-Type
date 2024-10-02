@@ -19,7 +19,6 @@ const Navbar = (props) => {
     };
 
     const userPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
-  console.log(userPrefersDark.valueOf());
 
   const ThemeCall =()=>{
     if(userPrefersDark.matches){
@@ -85,7 +84,7 @@ const Navbar = (props) => {
     
 
     return (
-        <nav className="z-10 bg-zinc-100 dark:bg-zinc-800/50 fixed w-screen  backdrop-blur-xl  drop-shadow-lg dark:text-white font-Inter tracking-wide transition duration-300 ease-in-out">
+        <nav className="z-10 bg-zinc-100/75 dark:bg-zinc-800/50 fixed w-screen  backdrop-blur-xl  drop-shadow-lg dark:text-white font-Inter tracking-wide transition duration-300 ease-in-out">
             <div className={` flex justify-between items-center bg-zinc-100/50dark:bg-zinc-800/50 `}>
                 <div className='flex gap-3'>
                     <Link to="/home" className="flex items-center gap-3 font-Text px-10">
