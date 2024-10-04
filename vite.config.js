@@ -8,9 +8,24 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        assetFileNames: 'assets/[name].[ext]',
+        manualChunks(id) {
+          // Separate dependencies into chunks
+          if (id.includes('node_modules')) {
+            if (id.includes('react')) {
+              return 'react';
+            }
+            if (id.includes('lodash')) {
+              return 'lodash';
+            }
+            if (id.includes('firebase')) {
+              return 'firebase';
+            }
+            return 'vendor'; // Default vendor chunk
+          }
+        },
       },
     },
+    chunkSizeWarningLimit: 1000,
   },
   css: {
     postcss: null,
