@@ -16,10 +16,10 @@ const RightAdComponent = (props) => {
     }, [currentLinkIndex]);
 
     const links = [
-        { url: 'https://10fastfingers.com/', imgSrc: assets.fastfiners, alt: 'fastfingers' },
-        { url: 'https://www.keybr.com/', imgSrc: assets.keybr, alt: 'keybr' },
-        { url: 'https://play.typeracer.com/', imgSrc: assets.typeracer, alt: 'typeracer' },
-        { url: 'https://www.typingzone.com/', imgSrc: assets.typingzone, alt: 'typingzone' }
+        { url: 'https://10fastfingers.com/', imgSrc: assets.FastTyping, alt: 'fastfingers' },
+        { url: 'https://www.keybr.com/', imgSrc: assets.Keybr, alt: 'keybr' },
+        { url: 'https://play.typeracer.com/', imgSrc: assets.Typeracer, alt: 'typeracer' },
+        { url: 'https://www.typingzone.com/', imgSrc: assets.Typingzone, alt: 'typingzone' }
     ];
 
     return (

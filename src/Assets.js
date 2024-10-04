@@ -1,12 +1,12 @@
-import typingzone from './assets/Images/Link_images/typingzone.png'
-import fastfiners from './assets/Images/Link_images/10fastfingers.png'
-import keybr from './assets/Images/Link_images/keybr.png'
-import typeracer from './assets/Images/Link_images/typeracer.png'
+import Typingzone from './assets/Images/Link_images/Typingzone.png'
+import FastTyping from './assets/Images/Link_images/Fastfingers.png'
+import Keybr from './assets/Images/Link_images/Keybr.png'
+import Typeracer from './assets/Images/Link_images/Typeracer.png'
 
-import typingacademy from './assets/Images/Link_images/Typingacademy.png'
-import typing from './assets/Images/Link_images/Typingcom.png'
-import typingclub from './assets/Images/Link_images/Typingclub.png'
-import rapidtyping from './assets/Images/Link_images/rapidtyping.png'
+import Typingacademy from './assets/Images/Link_images/Typingacademy.png'
+import Typing from './assets/Images/Link_images/Typingcom.png'
+import Typingclub from './assets/Images/Link_images/Typingclub.png'
+import Rapidtyping from './assets/Images/Link_images/Rapidtyping.png'
 
 import Authentication_Image from './assets/Images/Authentication_Image/Keyboard_Auth.jpg'
 import Background from './assets/Images/Authentication_Image/BackgroundImage.png'
@@ -18,15 +18,15 @@ import Keyboard from './assets/Images/Learning/Finger_position_on_a_keyboard.png
 
 
 const images = {
-    typingzone,
-    fastfiners,
-    keybr,
-    typeracer,
+    Typingzone,
+    FastTyping,
+    Keybr,
+    Typeracer,
 
-    typingacademy, 
-    typing, 
-    typingclub, 
-    rapidtyping,
+    Typingacademy, 
+    Typing, 
+    Typingclub, 
+    Rapidtyping,
 
     Authentication_Image,
     Background,

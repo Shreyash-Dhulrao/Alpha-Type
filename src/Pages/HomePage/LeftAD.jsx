@@ -14,10 +14,10 @@ const LeftAdComponent = (props) => {
     }, [currentLinkIndex]);
 
     const links = [
-        { url: 'https://www.typing.academy/', imgSrc: assets.typingacademy, alt: 'typingacademy' },
-        { url: 'https://www.typing.com/', imgSrc: assets.typing, alt: 'typing' },
-        { url: 'https://www.typingclub.com/', imgSrc: assets.typingclub, alt: 'typingclub' },
-        { url: 'https://rapidtyping.com/', imgSrc: assets.rapidtyping, alt: 'rapidtyping' }
+        { url: 'https://www.typing.academy/', imgSrc: assets.Typingacademy, alt: 'typingacademy' },
+        { url: 'https://www.typing.com/', imgSrc: assets.Typing, alt: 'typing' },
+        { url: 'https://www.typingclub.com/', imgSrc: assets.Typingclub, alt: 'typingclub' },
+        { url: 'https://rapidtyping.com/', imgSrc: assets.Rapidtyping, alt: 'rapidtyping' }
     ];
 
     return (

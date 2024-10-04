@@ -14,7 +14,7 @@ export default {
           'Extras' : ["Varela Round"]
         },
         backgroundImage: {
-          'Background': "url('/src/assets/Images/Authentication Image/Background Image.png')",
+          'Background': "url('/src/assets/Images/Authentication_Image/BackgroundImage.png')",
         }
     },
   },

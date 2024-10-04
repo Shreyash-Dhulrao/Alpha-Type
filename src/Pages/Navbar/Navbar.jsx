@@ -97,7 +97,7 @@ const Navbar = (props) => {
                     <ul className="flex items-center space-x-7">
                         <li><input type='checkbox' className='hidden' onChange={onChangeBtn} checked={Theme === "dark"} id='ThemeBTN' />
                             <label htmlFor="ThemeBTN" >
-                                <div className='bg-zinc-200 dark:bg-zinc-600 p-1 rounded-3xl'>
+                                <div className='border border-zinc-600 dark:border-zinc-400 p-1 rounded-3xl'>
                                     {ThemeStat ? <SunDim size={26} weight="regular" /> : <MoonStars size={26} weight="regular" />}
                                 </div>
                             </label>
