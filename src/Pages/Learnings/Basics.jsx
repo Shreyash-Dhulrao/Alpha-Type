@@ -118,7 +118,7 @@ function App() {
           </p>
           <img src={assets.Keyboard} alt="Keyboard" width='1024px' className='my-5 outline-none mx-auto rounded-lg' />
             </section>
-            <section className="mb-8">
+            <section className="mb-8 flex flex-col items-center gap-3">
               {!showTypingArea && (
                 <button
                   className='bg-zinc-300 dark:bg-zinc-800 dark:hover:bg-purple-500 hover:bg-purple-500 transition dark:text-white py-2 px-4 rounded-lg '
@@ -130,8 +130,8 @@ function App() {
               {showTypingArea && (
                 <div className="flex justify-center mb-4 select-none textbox">
                   {rowsOfKeys[currentRowIndex].map((char, index) => (
-                    <div key={index} className="border border-gray-300 p-2 rounded-md mx-1 bg-white text-black outline-none">
-                      <span className={index === currentCharIndex ? 'text-indigo-400 border-b-2 border-indigo-400' : ''}>
+                    <div key={index} className="border border-zinc-300 p-2 rounded-md mx-1 bg-white text-black outline-none">
+                      <span className={index === currentCharIndex ? 'text-purple-400 border-b-2 border-purple-400' : ''}>
                         {char}
                       </span>
                     </div>
@@ -140,7 +140,7 @@ function App() {
               )}
               {showTypingArea && (
                 <textarea
-                  className="border border-gray-300 p-2 w-full h-40 text-black outline-none textbox"
+                  className="border border-zinc-300 p-2 w-3/4 rounded-lg p-3 h-40 text-black outline-none textbox"
                   placeholder="Start typing here..."
                   value={typedText}
                   onChange={handleChange}
@@ -157,7 +157,7 @@ function App() {
                 </button>
               )}
               {lastWordTyped && (
-                <Link to='/Intermediate' className='bg-zinc-300 dark:bg-zinc-800 dark:hover:bg-purple-500 hover:bg-purple-500 transition dark:text-white py-3 mx-3 px-4 rounded-lg '>Go to next</Link>
+                <Link to='/Normal' className=' border-b-2 border-transparent hover:dark:border-purple-500 hover:dark:text-purple-400 transition dark:text-white py-3 mx-3 px-4 '>Go to next</Link>
               )}
             </section>
           </main>

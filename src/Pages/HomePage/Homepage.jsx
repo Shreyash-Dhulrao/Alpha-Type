@@ -1,7 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
-import LeftAdComponent from './LeftAD'
-import RightAdComponent from './RightAD'
 import { collection, addDoc, getDocs, deleteDoc, doc, query, where , auth } from "../../Firebase/Firebase";
 import { db } from "../../Firebase/Firebase";
 
@@ -358,10 +356,9 @@ const TypingSpeedTest = (props) => {
 
 
     return (
-        <div className='lg:w-1/2 w-full mx-auto h-full min-h-screen pt-20 p-4 dark:bg-zinc-900 dark:text-white bg-white-200 transition duration-300  font-Inter'>
-
-            <LeftAdComponent />
-            <div className={`lg:text-3xl text-lg font-light mb-4 border-2 border-zinc-300 dark:border-zinc-700  p-3 rounded-lg select-none font-Text`}>
+        <div className='w-full flex flex-col items-center mx-auto h-auto min-h-screen pt-16 dark:bg-zinc-900 dark:text-white bg-white transition duration-300  font-Inter'>
+            <div className='w-3/4 dark:bg-zinc-800 bg-zinc-200 p-3 '>
+            <div className={`lg:text-3xl text-lg font-light mb-4 border-2 border-zinc-300 dark:border-zinc-700  p-3 rounded-lg select-none font-Text `}>
                 {randomText.split('').map((letter, index) => (
                     <span
                         key={index}
@@ -459,7 +456,7 @@ const TypingSpeedTest = (props) => {
                 )}
 
             </div>
-            <RightAdComponent />
+            </div>
         </div>
     );
 };

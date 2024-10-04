@@ -16,6 +16,7 @@ import Basics from './Pages/Learnings/Basics'
 import Normal from './Pages/Learnings/Normal'
 import Advance from './Pages/Learnings/Advance'
 import Shopping from './Pages/Shopping/Shopping';
+import Footer from './Pages/Footer/Footer';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -73,11 +74,11 @@ function App() {
         <Route path="/signout" element={<PublicRoute><SignOut /></PublicRoute>} />
         <Route path="/forget" element={<PublicRoute user={user}><ForgetPass /></PublicRoute>} />
 
-        <Route path="/home" element={<PrivateRoute user={user}><Navbar /><Homepage /></PrivateRoute >} />
-        <Route path="/Shopping" element={<PrivateRoute user={user}><Navbar /><Shopping /></PrivateRoute >} />
-        <Route path="/Basics" element={<PrivateRoute user={user}><Navbar /><Basics /></PrivateRoute >} />
-        <Route path="/Normal" element={<PrivateRoute user={user}><Navbar /><Normal /></PrivateRoute >} />
-        <Route path="/Advance" element={<PrivateRoute user={user}><Navbar /><Advance /></PrivateRoute >} />
+        <Route path="/home" element={<PrivateRoute user={user}><Navbar /><Homepage /><Footer /></PrivateRoute >} />
+        <Route path="/Shopping" element={<PrivateRoute user={user}><Navbar /><Shopping /><Footer /></PrivateRoute >} />
+        <Route path="/Basics" element={<PrivateRoute user={user}><Navbar /><Basics /><Footer /></PrivateRoute >} />
+        <Route path="/Normal" element={<PrivateRoute user={user}><Navbar /><Normal /><Footer /></PrivateRoute >} />
+        <Route path="/Advance" element={<PrivateRoute user={user}><Navbar /><Advance /><Footer /></PrivateRoute >} />
       </Routes>
     </ContextProvider>
   )
