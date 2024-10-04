@@ -1,5 +1,5 @@
 import Typingzone from './assets/Images/Link_images/Typingzone.png'
-import FastTyping from './assets/Images/Link_images/Fastfingers.png'
+import FastTyping from './assets/Images/Link_images/FastFingers.png'
 import Keybr from './assets/Images/Link_images/Keybr.png'
 import Typeracer from './assets/Images/Link_images/Typeracer.png'
 
